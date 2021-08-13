@@ -15,12 +15,12 @@ public class ArticleController {
     }
 
     @GetMapping("/article")
-    public HttpTemplate getArticle(@RequestParam("id") String idValue) {
+    public HtmlTemplate getArticle(@RequestParam("id") String idValue) {
         // Conversion to use case data structure
         ArticleId id = new ArticleId(idValue);
         Article article = getArticleUseCase.execute(id);
         // No conversion from use case data structure
-        return new HttpTemplate(article);
+        return new HtmlTemplate(article);
     }
 }
 
