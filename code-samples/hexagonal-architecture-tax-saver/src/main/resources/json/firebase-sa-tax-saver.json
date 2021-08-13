@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "compfest-sea-tax-saver",
+  "private_key_id": "092bbdd22d9c7468c878406c1fcb829ca06fe42a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCvncLz1CKATM82\nDUU26n+wvMqXwI/Vdc1clTzJrk4WAF78IpOj2JP+v2eQ91O76PVDIUyzysYynEsr\n0PgL1M9bCs6j4t3LQiqsORcf9a/fCSd+jt/c4Ui0wWNjelN+Bb5SEgJWD2NzLzBE\n89WF0dLzUuUKDsaa+gvln8iq3SlAUfwL+uRUH29+EhYptJYCtVX29sl8AXQbTiYf\naaEpVC+KYDJGw+iGF8XbuX8ll7G1vEkee1gVZPo+XrSN7SOlfU0z8I2yOq22WVdS\nWgMzGZkyU53xc+m4uoFreLZWUQpiMY3QzUYDDyTPoPncDkhW1s9CEAg5KbBvHJhP\nD9xKDBqbAgMBAAECggEAKiZJv77nBvcodpcpyRvwSMmPMGv5uah8ASAahmds+2/c\nXFSqLdWR878Zytvpv3ySvSl1YOOmvUfw7NPLbP+HQxktbn1JcXrwhgRvze5oZzYp\nwgDlrvxtOGEAC0S1XFZhjw4efGxWGLO3OJ1zXpp1MIxxR4AzX8fq6hJ3FbdeKr77\nmwSPDtQ+9vJQglaPfBWCTdFOdKv2+nBEOC3m7swR31cW7bLITsD1PH+5XOKjF4iY\n2mVYgs108FhJ5GYqUoxNH3otKtt7pmE3J3DZjf/MWeLXOAAtPW9HyBuVLIU4JS7T\nXe6f3RVILCW9Iw6tn6ViXo1gRtrSLj/rIlwHKHz5EQKBgQD4VqjFsOc4sEX5CoCd\npBTRCQ5w9B5pkl/7H/FHUOfusIoEYDaUQPrwZPZPfX5QwTw1gZpF/wzcGHygVDFY\nqV0ZPuw/vcaFvvobcXZwNeToqoKEPEtvqPVcEQZuv16ahg1oMfkxuvULvpJMcnJ/\nMKqkPXUT36bxHyJS4JgnjcO5SwKBgQC1CMCvBj+6eZGhNWKJShRqm2pKUq0zVIMh\nwSiiKSnyEpB11xhqoaYZQCjy5D50Mpprd1hvI1cnUn9sXmJfpZKQz3kqd2Sc/KOj\nR7UJE26TGAtISiq+Ru80nPLp8ulYNraAHTzYf+g13d2Df8tpen50eAImXhlGjso6\nlnYNxLgh8QKBgAT7oClPUmRlzRGhL1F6cFx9ZQfJLi8KG9jrHClFK1IzwqEx2QaC\ng0Z9kB+qMfWm2vFr50+OPZDRAPcqmU7hHxgZlh31Td1zJouUbD72JeCxQysqFo1o\nA3xUbx+bwWcyV2SG1Cw2RyJ0MXVNOpTowhPHk+jRLQVbjZHCJettQccfAoGBAKyI\n1vr4Pax/SGgX9P1bePHRhQ+olCGjngaBjTRffvaS8tMcWMznmuHd4Cj9lvgvcjSR\n3dquF9YGLiMeISt/JZyV36i1eVKVBXAMW2F2/594/ue6p9oIyNmf63NEa1gDbRPU\nybSc0rbj6MX2+ephMDvYVFQ0wmoYlGwaEhE1NzhBAoGBAJegaFJrz56Xexn/Etba\n+Xamb2eYUzAVfO1eKLg8/GURFk2r/UzZjGZCdChoYTsrF72GXbd9wMQNqCTK71d6\nw4gCb0pHiWawRfH7+FuZWJHG63Q3QXzIaXl4Oj9VmGM2VVf7m5CS2Quq38p2qiBU\nASi2/FkoLE+mFwwhFcB9SJFP\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-gduui@compfest-sea-tax-saver.iam.gserviceaccount.com",
+  "client_id": "109714346696276142673",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-gduui%40compfest-sea-tax-saver.iam.gserviceaccount.com"
+}

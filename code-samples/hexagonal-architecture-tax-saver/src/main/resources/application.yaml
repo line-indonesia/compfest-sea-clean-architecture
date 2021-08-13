@@ -1,0 +1,28 @@
+spring:
+  profiles:
+    active: demo
+
+server:
+  port: 8080
+
+line.bot:
+  channel-token: k26+rmAvKvDYTM2SwwI3hzhTZWhWAdy2TR/0MMfpel00Z/psAElAHigrTbRX75Tj9UgwK6yjpRiCNaRAFmULIGOQtxgVba5SX0tWxD2xdFP5MPS2h7CWZ9PrPG0I4PC5tmZnzxQ+gp3gj0kECWrNbQdB04t89/1O/w1cDnyilFU=
+  channel-secret: 6cb957afe5a2f344d4688dd458d0c11f
+  handler.path: /bot/webhook
+
+telegram:
+  apiKey: 1913457351:AAFNgfZUZF2V90hynBx1CT4C-sI6Mu48u2w
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: local
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: demo

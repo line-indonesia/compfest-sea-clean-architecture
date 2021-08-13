@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Tax Form</title>
+</head>
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<body>
+<b>You can fill the name and amount, or just the name</b>
+<br>
+<br>
+<form action="#" th:action="@{/tax-info}" method="post" th:object="${taxform}">
+    <table>
+        <tr>
+            <th style="text-align: left"><label for="name">Name</label></th>
+            <td>
+                <input type="text" id="name" name="name" value="Brown"
+                       th:field="*{name}">
+            </td>
+        </tr>
+        <tr>
+            <th><label for="amount">Taxable Income Amount</label></th>
+            <td>
+                <input type="text" id="amount" name="amount"
+                       value="100.000.000" th:field="*{taxableIncome}">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

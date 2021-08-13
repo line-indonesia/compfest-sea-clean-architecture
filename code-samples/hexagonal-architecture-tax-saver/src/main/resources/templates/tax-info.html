@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Tax Info</title>
+</head>
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<body>
+<table>
+    <tr>
+        <th style="text-align: left">Name</th>
+        <td th:text="${taxinfo.name}"></td>
+    </tr>
+    <tr>
+        <th>Taxable Income Amount</th>
+        <td th:text="${taxinfo.taxableIncome}"></td>
+    </tr>
+    <tr>
+        <th style="text-align: left">Annual Tax</th>
+        <td th:text="${taxinfo.annualTax}"></td>
+    </tr>
+    <tr>
+        <th style="text-align: left">Monthly Tax</th>
+        <td th:text="${taxinfo.monthlyTax}"></td>
+    </tr>
+</table>
+
+</body>
+</html>
