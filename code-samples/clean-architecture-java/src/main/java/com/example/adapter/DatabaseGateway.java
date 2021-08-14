@@ -1,8 +1,8 @@
 package com.example.adapter;
 
-import com.example.usecase.ArticleGateway;
 import com.example.entity.Article;
 import com.example.entity.ArticleId;
+import com.example.usecase.ArticleGateway;
 
 public class DatabaseGateway implements ArticleGateway {
 
