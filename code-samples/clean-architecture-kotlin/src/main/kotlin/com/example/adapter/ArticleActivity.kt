@@ -1,5 +1,7 @@
 package com.example.adapter
 
+import com.example.adapter.util.OnClick
+import com.example.adapter.util.TextView
 import com.example.entity.Article
 import com.example.entity.ArticleId
 import com.example.usecase.ArticleGateway

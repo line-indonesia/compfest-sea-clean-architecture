@@ -1,4 +1,4 @@
-package com.example.adapter
+package com.example.adapter.util
 
 class TextView {
     fun setText(title: String) {
